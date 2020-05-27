@@ -2,6 +2,45 @@
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
+## Truffle Version
+Truffle v5.1.24 (core: 5.1.24)
+
+## Solidity Version
+Solidity v0.5.16 (solc-js)
+
+## Node Version
+Node v10.19.0
+
+## web3 Version
+Web3.js v1.2.1
+
+## Contract Address(Rinkeby)
+0xf4b1d8b8f4Ce949e0CDE55137ab233489fC9c299
+
+### Project write-up-UML
+## Activity Diagram
+![Activity Diagram](images/activity-diagram.png)
+
+## Sequence Diagram
+![sequence diagram](images/sequence-diagram.png)
+
+## State Diagram
+![state diagram](images/state-diagram.png)
+
+## Class Diagram
+![Classes (Data Model)](images/class-diagram.png)
+
+
+## Project write-up-Libraries
+I used one Library called Roles. It made very easy to maintain different roles in supplychain(FarmerRole,DistributorRole,ConsumerRole,RetailerRole).
+
+## Project write-up-IPFS
+Yes i used IPFS to deploy my Dapp in Decentralized way not in a central server. I stored all my client-side code and build directory to dist folder and addes dist folder to ipfs. 
+ 1)You should install ipfs in your system
+ 2)start your daemon by goin into terminal and enter command ipfs daemon.
+ 3)now you can paste this link in your browser(Brave Browser Recommended).
+
+
 The DApp User Interface when running should look like...
 
 ![truffle test](images/ftc_product_overview.png)
