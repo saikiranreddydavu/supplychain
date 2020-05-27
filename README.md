@@ -3,19 +3,19 @@
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
 ## Truffle Version
-Truffle v5.1.24 (core: 5.1.24)
+Truffle v5.1.27 (core: 5.1.24)
 
 ## Solidity Version
 Solidity v0.5.16 (solc-js)
 
 ## Node Version
-Node v10.19.0
+Node v10.16.0
 
 ## web3 Version
 Web3.js v1.2.1
 
 ## Contract Address(Rinkeby)
-0xf4b1d8b8f4Ce949e0CDE55137ab233489fC9c299
+0x1a4bB2CC6E8B589d27eA709e8B2Bcbb7730162BD
 
 ### Project write-up-UML
 ## Activity Diagram
