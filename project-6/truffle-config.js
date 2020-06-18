@@ -76,7 +76,7 @@ module.exports = {
     // Useful for deploying to a public network.
     // NB: It's important to wrap the provider as a function.
     rinkeby: {
-     provider: () => new HDWalletProvider("occur grain twist demand west derive fog chair token spider addict fatigue", `https://rinkeby.infura.io/v3/53925d20c38d4408b5732f14e140fbf5`),
+     provider: () => new HDWalletProvider("", `https://rinkeby.infura.io/v3/53925d20c38d4408b5732f14e140fbf5`),
        network_id: 4,       // Ropsten's id
        gas: 5500000,        // Ropsten has a lower block limit than mainnet
 
